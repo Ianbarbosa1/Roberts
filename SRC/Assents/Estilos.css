@@ -122,6 +122,7 @@
 .redes:hover {
     background-color:rgb(23,120,242);
     border-radius: 20px;
+    transition: 1s;
 }
 
 .redes-2{
@@ -130,6 +131,7 @@
     margin-bottom: 5px;
     padding: 3px;
     text-align: center;
+    
 }
 .redes-2 img {
     height: 25px;
@@ -138,6 +140,26 @@
 .redes-2:hover {
     background-color:rgb(191,45,120);
     border-radius: 20px;
+    transition: 1s;
+}
+
+.redes-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    text-align: center;
+}
+.redes-3 img, a{
+    height: 45px;
+    text-decoration: none;
+    color: white;
+    margin-top: 4px;
+}
+.redes-3:hover {
+    background-color:rgb(50,217,81);
+    border-radius: 20px;
+    transition: 1s;
 }
 
 
@@ -213,8 +235,8 @@
 
 
 /* saiba mais esquerda */
+
 .botao {
-    height: 50px;
     width: 150px;
     background-image:linear-gradient(rgb(229,179,123), rgb(206, 153, 93), rgb(235, 139, 29));
     margin: 0;
@@ -225,15 +247,18 @@
 }
 .botao a {
     text-decoration: none;
+    padding: 10px 32px;
     color: white;
-    padding:15px 23px ;
-    font-family: cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.botao a:hover{
+.botao:hover{
     background-image: linear-gradient(rgb(160, 238, 44),rgb(120,198,0));
-    color:rgb(99,102,107);
     border-radius: 10px;
 }
+.botao a:hover {
+    color:rgb(99,102,107);
+}
+
 
 
 /* saiba mais direita */
@@ -242,7 +267,7 @@
     width: 150px;
     background-image:linear-gradient(rgb(229,179,123), rgb(206, 153, 93), rgb(235, 139, 29));
     margin-top: 100px;
-    margin-right:50px ;
+    margin-right:50px;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -250,13 +275,17 @@
 .botao-1 a {
     text-decoration: none;
     color: white;
-    padding:15px 23px ;
-    font-family: cursive;
+    padding:10px 32px;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.botao-1 a:hover{
+.botao-1:hover{
     background-image: linear-gradient(rgb(160, 238, 44),rgb(120,198,0));
-    color:rgb(99,102,107);
     border-radius: 10px;
+    height: 50px;
+    width: 150px;
+}
+.botao-1 a:hover {
+    color:rgb(99,102,107);
 }
 
 /* rodapé */
