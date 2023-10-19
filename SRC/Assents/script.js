@@ -13,13 +13,13 @@ let msg = [
         tapiocas:'Gostaria+de+saber+mais+sobre+os+tamanhos,+valores+e+os+sabores+das+tapiocas.',
     },
     {
-        salgados:'Gostaria+de+saber+mais+sobre+o+valor+e+se+os+tipos+de+salgados.',
+        salgados:'Gostaria+de+saber+mais+sobre+o+valor+e+os+tipos+de+salgados.',
     },
     {
-        sanduiches:'Gostaria+de+saber+mais+sobre+o+valor+e+se+os+sabores+dos+sanduiches.',
+        sanduiches:'Gostaria+de+saber+mais+sobre+o+valor+e+os+sabores+dos+sanduiches.',
     },
     {
-        panquecas:'Gostaria+de+saber+mais+sobre+o+valor+e+se+os+sabores+das+panquecas.',
+        panquecas:'Gostaria+de+saber+mais+sobre+o+valor+e+os+sabores+das+panquecas.',
     },
     {
         saladas:'Gostaria+de+saber+mais+sobre+o+valor+e+os+tipos+de+saladas.',
