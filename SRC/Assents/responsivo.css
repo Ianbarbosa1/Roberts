@@ -26,13 +26,13 @@
         display: flex;
         flex-wrap: wrap;
         padding-top: 50px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .produto{
         width: 150px;
         background-color: rgb(99,102,107);
         border-radius: 50px;
-        margin-top:7px;
+        margin-top:1px;
     }
     .produto a {
         font-size: 17px;
@@ -74,6 +74,11 @@
         padding: 0px;
         margin: 0;
     }
+
+    .redes-3 img, a{
+        margin-top: 3px;
+    }
+
     .mapa{
         margin-top:40px;
         height: 320px;
@@ -140,7 +145,7 @@
     }
     .botao a {
         text-decoration: none;
-        padding: 10px 15px;
+        padding:13px 15px;
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 11px;
@@ -167,7 +172,7 @@
     }
     .botao-1 a {
         text-decoration: none;
-        padding: 10px 15px;
+        padding:13px 15px;
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 11px;
