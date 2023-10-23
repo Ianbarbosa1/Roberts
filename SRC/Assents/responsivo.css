@@ -160,6 +160,7 @@
     }
 }
 
+
 @media screen and (min-width:601px) and  (max-width:700px) {
     /* logo */
     .logo {
@@ -303,6 +304,8 @@
         font-size:15px;
     }
 }
+
+
 @media screen and (min-width:701px) and (max-width:900px) {
     /* logo */
     .logo {
