@@ -104,33 +104,86 @@
     </section> 
 
     <section id="açai">
+        <div class="escolhas0" id="escolhas0">
+            
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">x</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS0" onchange="saborAcai()" class="selecao-sabor">
+                            <option value="s1">Natural</option>
+                            <option value="s2">Banana</option>
+                            <option value="s3">Morango</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="" id="prosseguir" class="prosseguir">
+                    <div>Prosseguir</div>
+                </a>
+                
+            </div>
+        </div>
+
         <div class="amostra">
             <div class="sobre-produto" > 
                 <p class="nome" >AÇAI NATURAL</p>
                 <nav class="barra"></nav>
                 <p class="descricao">
-                    O Açai é uma ótima escolha para refrescar e adoçar o seu dia, com ingredientes naturais e com acompanhamentos determinado por você. 
+                    Buscamos não apenas satisfazer o seu paladar, mas também nutrir a sua jornada de bem-estar. Cada copo é uma obra-prima feita com açaí puro, ingredientes frescos e paixão genuína.
                     <br><br>
-                    <ul>Sabores disponiveis:
-                        <li>Banana</li>
+                    <ul class="SB">Sabores disponiveis:
                         <li>Natural</li>
+                        <li>Banana</li>
                         <li>Morango</li>
-                        Tamanho de 1litro, 500ml, 300ml.
-                    </ul> 
-                     
+                    </ul>  
                 </p>
 
-                <div class="botao" id="acais"> 
-                    <a href="">SAIBA MAIS</a>
+                
+                <div onclick="abrir0()" class="botao" id="acais" > 
+                    SAIBA MAIS
                 </div>
             </div>
-            <div class="img-produto"> 
+            <div class="img-produto" > 
                 <img src="./SRC/Imagens/Produtos/Açai.jpeg" alt="">
             </div>
         </div>
     </section>
 
     <section id="bebida">
+        <div class="escolhas1" id="escolhas1">
+            
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">x</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor ou o tipo desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS1" onchange="saborBebida()" class="selecao-sabor">
+                            <option value="s1">Goiaba</option>
+                            <option value="s2">Maracujá</option>
+                            <option value="s3">Morango</option>
+                            <option value="s4">Suco mix</option>
+                            <option value="s5">Guaravita</option>
+                            <option value="s6">Coca-cola</option>
+                        </select>
+                        <p>Obs: Consultar tamanho ao atendente!</p>
+                    </div>  
+                </div>
+
+                <a href="" id="prosseguir1" class="prosseguir">
+                    <div>Prosseguir</div>
+                </a>
+                
+            </div>
+        </div>
+
         <div class="amostra" >
             <div class="img-produto-2"> 
                 <img src="./SRC/Imagens/Produtos/SUCO.jpeg" alt="">
@@ -140,39 +193,69 @@
                 <p class="nome" >BEBIDAS</p>
                 <nav class="barra"></nav>
                 <p class="descricao">
-                    Um ótimo acompanhamento para sua refeição, com ingredientes totalmente naturais, gelado e com diversos sabores para refrescar o seu dia.
+                    Cada gole é uma jornada de sabor, uma celebração de frescor e uma dose de energia para o seu dia. Descubra a paixão em cada copo, onde o sabor e a saúde se encontram em harmonia.
                     <br><br>
-                    <ul> Alguns sabores disponiveis:
+                    <ul class="SB"> Alguns dos sabores de bebidas naturais:
                         <li>Goiaba</li>
                         <li>Maracujá</li>
                         <li>Morango</li>
-                        <li>Laranja</li>
                     </ul>
                 </p>
-                <div class="botao-1" id="bebidas"> 
-                    <a href="">SAIBA MAIS</a>
+                <div onclick="abrir1()" class="botao" id=""> 
+                    SAIBA MAIS
                 </div>
             </div>
         </div>
     </section>
 
     <section id="crepioca">
+        <div class="escolhas2" id="escolhas2">
+            
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">x</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS2" onchange="saborCrepioca()" class="selecao-sabor">
+                            <option value="s1">Camarão</option>
+                            <option value="s2">Carne</option>
+                            <option value="s3">Frango</option>
+                            <option value="s4">Ovos</option>
+                            <option value="s5">Rucula</option>
+                            <option value="s6">Light</option>
+                            <option value="s7">Quatro queijos</option>
+                            <option value="s8">Super leve</option>
+                            <option value="s9">Vegetariana</option>
+                            <option value="s10">Mista</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="" id="prosseguir2" class="prosseguir">
+                    <div>Prosseguir</div>
+                </a>
+                
+            </div>
+        </div>
+
         <div class="amostra">
             <div class="sobre-produto"> 
-                <p class="nome" >CREPIOCAS</p>
+                <p class="nome" >CREPIÓCAS</p>
                 <nav class="barra"></nav>
                 <p class="descricao">
-                    Uma opção nutritiva e saborosa para o seu café da manhã ou lanche. Rica em proteínas, a crepioca é perfeita para quem busca uma alimentação equilibrada.
+                    Cada crepióca é uma sinfonia de texturas e sabores, um convite para explorar o inesperado. Desfrute de uma experiência única onde a tradição da tapioca e a versatilidade do crepe se unem em harmonia.
                     <br><br>
-                    <ul>Alguns dos sabores disponiveis: 
+                    <ul class="SB">Alguns dos sabores disponiveis: 
                         <li>Quatro queijos</li>
                         <li>Carne</li>
                         <li>Frango</li>
-                        <li>Carne seca</li>
                     </ul>
                 </p>
-                <div class="botao" id="crepiocas"> 
-                    <a href="">SAIBA MAIS</a>
+                <div onclick="abrir2()" class="botao" id=""> 
+                    SAIBA MAIS
                 </div>
             </div>
             <div class="img-produto"> 
@@ -182,6 +265,40 @@
     </section>
 
     <section id="tapioca">
+        <div class="escolhas3" id="escolhas3">
+            
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">x</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS3" onchange="saborTapioca()" class="selecao-sabor">
+                            <option value="s1">Calabresa</option>
+                            <option value="s2">Camarão</option>
+                            <option value="s3">Carne seca</option>
+                            <option value="s4">Frango</option>
+                            <option value="s5">Ovos</option>
+                            <option value="s6">Quatro queijos</option>
+                            <option value="s7">Light</option>
+                            <option value="s8">Mista</option>
+                            <option value="s9">Super leve</option>
+                            <option value="s10">Fit</option>
+                            <option value="s11">Vegetariana</option>
+                            
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="" id="prosseguir3" class="prosseguir">
+                    <div>Prosseguir</div>
+                </a>
+                
+            </div>
+        </div>
+
         <div class="amostra">
             <div class="img-produto-2"> 
                 <img src="./SRC/Imagens/Produtos/TAPIOCA.jpeg" alt="">
@@ -191,40 +308,67 @@
                 <p class="nome">TAPIOCA</p>
                 <nav class="barra"></nav>
                 <p class="descricao">
-                    Tapioca é um ótimo alimento completo e balançeado que pode substituir um café da manhã, almoço ou janta.
+                    Cada tapioca é uma história de sabor esperando para ser contada, uma fusão de tradição e inovação que surpreende a cada mordida. Descubra o sabor autêntico e a simplicidade irresistível da tapioca em cadaprato.
                     <br><br>
-                    <ul> Alguns dos sabores disponiveis:
+                    <ul class="SB"> Alguns dos sabores disponiveis:
                         <li>Calabresa</li>
                         <li>Camarão</li>
                         <li>Carne seca</li>
-                        <li>Frango</li>
                     </ul>
                 </p>
-                <div class="botao-1" id="tapiocas"> 
-                    <a href="">SAIBA MAIS</a>
+                <div onclick="abrir3()" class="botao" id=""> 
+                    SAIBA MAIS
                 </div>
             </div>
         </div>
     </section>
 
     <section id="salgado">
+        <div class="escolhas4" id="escolhas4">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">x</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o tipo de salgado desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS4" onchange="saborSalgado()" class="selecao-sabor">
+                            <option value="s1">Italiano</option>
+                            <option value="s2">Coxinha</option>
+                            <option value="s3">Hamburguer</option>
+                            <option value="s4">Italiano empanado</option>
+                            <option value="s5">Quiche de alho Poró</option>
+                            <option value="s6">Quiche de Espinafre</option>
+                            <option value="s7">Quiche de Queijo</option>
+                            <option value="s8">Wrap Primavera</option>
+                            <option value="s9">Wrap super leve</option>
+                            
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="" id="prosseguir4" class="prosseguir">
+                    <div>Prosseguir</div>
+                </a>
+            </div>
+        </div>
+
         <div class="amostra">
             <div class="sobre-produto"> 
                 <p class="nome" >SALGADOS</p>
                 <nav class="barra"></nav>
                 <p class="descricao">
-                    Uma ótima  e deliciosa opção para alimentação, são nossos salgados.
-                    Como opção de leve temos os nossos deliciosos Quiches nos sabores de Alho Poró, Queijo e Espinafre.
+                    O salgado é uma explosão de sabor, uma experiência que desperta os sentidos e faz seu paladar dançar. Descubra o equilíbrio perfeito entre textura, tempero e frescor em cada mordida.
                     <br><br>
-                    <ul>Alguns dos sabores disponiveis: 
+                    <ul class="SB">Alguns dos tipos disponiveis: 
                         <li>Italiano</li>
                         <li>Quiche</li>
                         <li>Hamburguer</li>
-                        <li>Coxinha</li>
                     </ul>
                 </p>
-                <div class="botao" id="salgados"> 
-                    <a href="">SAIBA MAIS</a>
+                <div onclick="abrir4()" class="botao" id=""> 
+                    SAIBA MAIS
                 </div>
             </div>
             <div class="img-produto"> 
@@ -234,6 +378,30 @@
     </section>
 
     <section id="sanduiche">
+        <div class="escolhas5" id="escolhas5">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">x</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS5" onchange="saborSanduiche()" class="selecao-sabor">
+                            <option value="s1">Atum</option>
+                            <option value="s2">Frango</option>
+                            <option value="s3">Peito de peru</option>
+                            <option value="s4">Integral</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="" id="prosseguir5" class="prosseguir">
+                    <div>Prosseguir</div>
+                </a>
+            </div>
+        </div>
+
         <div class="amostra">
             <div class="img-produto-2"> 
                 <img src="./SRC/Imagens/Produtos/SANDUICHE.jpeg" alt="">
@@ -243,39 +411,66 @@
                 <p class="nome">SANDUÍCHES</p>
                 <nav class="barra"></nav>
                 <p class="descricao">
-                    Uma refeição completamente saudável e balanceada, com ingredientes leves e selecionados para te proporcionar um alimento de qualidade.
+                    O sanduíche natural é mais do que uma refeição - são uma celebração de sabores frescos e saudáveis. Cada sanduíche é uma sinfonia de ingredientes naturais, uma jornada que equilibra sabor e bem-estar. Descubra a delícia de uma refeição que cuida de você a cada mordida.
                     <br><br>
-                    <ul> Alguns dos sabores disponiveis:
+                    <ul class="SB"> Alguns dos sabores disponiveis:
                         <li>Atum</li>
                         <li>Frango</li>
                         <li>Peito de peru</li>
-                        <li>Integral</li>
                     </ul>
                 </p>
-                <div class="botao-1" id="sanduiches"> 
-                    <a href="">SAIBA MAIS</a>
-                </div> 
+                <div onclick="abrir5()" class="botao" id=""> 
+                    SAIBA MAIS
+                </div>
             </div>
         </div>
     </section>
 
     <section id="panqueca">
+        <div class="escolhas6" id="escolhas6">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">x</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS6" onchange="saborPanqueca()" class="selecao-sabor">
+                            <option value="s1">Carne</option>
+                            <option value="s2">Quatro queijos</option>
+                            <option value="s3">Camarão imperial</option>
+                            <option value="s4">Ovos</option>
+                            <option value="s5">Frango</option>
+                            <option value="s6">Light</option>
+                            <option value="s7">Mista</option>
+                            <option value="s8">Rainha do nordeste</option>
+                            <option value="s9">Super leve</option>
+                            <option value="s10">Vegetariana</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="" id="prosseguir6" class="prosseguir">
+                    <div>Prosseguir</div>
+                </a>
+            </div>
+        </div>
+
         <div class="amostra">
             <div class="sobre-produto"> 
                 <p class="nome" >PANQUECAS</p>
                 <nav class="barra"></nav>
                 <p class="descricao">
-                    A nossa panqueca é super leve e nutritiva, com uma massa leve e um super-recheio no qual você pode escolher. É uma escolha de lanche no final de tarde.
-                    <br><br>
-                    <ul>Alguns dos sabores disponiveis: 
-                        <li>carne</li>
+                    A panqueca é uma fusão de sabor e textura, uma jornada que começa o seu dia com alegria. Descubra o encanto de uma refeição reconfortante, onde o sabor e a qualidade se encontram a cada garfada.
+                    <ul class="SB">Alguns dos sabores disponiveis: 
+                        <li>Carne</li>
                         <li>Quatro queijos</li>
                         <li>Fit</li>
-                        <li>Camarão</li>
                     </ul>
                 </p>
-                <div class="botao" id="panquecas"> 
-                    <a href="">SAIBA MAIS</a>
+                <div onclick="abrir6()" class="botao" id=""> 
+                    SAIBA MAIS
                 </div>
             </div>
             <div class="img-produto"> 
@@ -285,6 +480,28 @@
     </section>
 
     <section id="salada">
+        <div class="escolhas7" id="escolhas7">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">x</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o tipo de salada desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS7" onchange="saborSalada()" class="selecao-sabor">
+                            <option value="s1">Legumes</option>
+                            <option value="s2">Frutas</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="" id="prosseguir7" class="prosseguir">
+                    <div>Prosseguir</div>
+                </a>
+            </div>
+        </div>
+
         <div class="amostra">
             <div class="img-produto-2"> 
                 <img src="./SRC/Imagens/Produtos/SALADA.jpeg" alt="">
@@ -294,13 +511,12 @@
                 <p class="nome">SALADAS</p>
                 <nav class="barra"></nav>
                 <p class="descricao">
-                    Além de ser extremamente saudável e leve é bem colorida e uma ótima refeição para manter o seu final de semana Fitness. <br>
-                    Temos também salada de Frutas, com frutas selecionadas e frescas.
+                    As saladas são uma celebração de frescor e vitalidade. É uma paleta de cores e sabores, uma jornada que nutre o seu corpo e satisfaz o seu paladar. Descubra o equilíbrio perfeito entre ingredientes frescos e combinações surpreendentes em cada garfada.
                     <br><br>
                 </p>
-                <div class="botao-1" id="saladas"> 
-                    <a href="">SAIBA MAIS</a>
-                </div> 
+                <div onclick="abrir7()" class="botao" id=""> 
+                    SAIBA MAIS
+                </div>
             </div>
         </div>
     </section>
