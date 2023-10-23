@@ -40,6 +40,10 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
+    .SB{
+        display: none;
+    }
+
         
     /* sobre a loja */
     .sobre-loja{
@@ -134,57 +138,25 @@
 
     /* saiba mais da esquerda */
     .botao {
-        height: 30px;
-        width: 95px;
+        width: 90px;
         margin: 0;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-        border-radius: 5px;
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 5px;
+        font-size:11px;
+        cursor: pointer;
     }
-    .botao a {
-        text-decoration: none;
-        padding:13px 15px;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 11px;
-    }
-    .botao:hover{
-        background-image: linear-gradient(rgb(160, 238, 44),rgb(120,198,0));
-        border-radius: 5px;
-    }
-    .botao a:hover {
-        color:rgb(99,102,107);
-    }
-    
+ 
 
     /* saiba mais da direita */
     .botao-1 {
-        height: 30px;
-        width: 95px;
+        width: 90px;
         margin: 0;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-        border-radius: 5px;
-    }
-    .botao-1 a {
-        text-decoration: none;
-        padding:13px 15px;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 11px;
-    }
-    .botao-1:hover{
-        background-image: linear-gradient(rgb(160, 238, 44),rgb(120,198,0));
-        border-radius: 5px;
-        height: 30px;
-        width: 95px;
-    }
-    .botao-1 a:hover {
-        color:rgb(99,102,107);
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 5px;
+        font-size:11px;
+        cursor: pointer;
     }
 }
 
@@ -314,61 +286,23 @@
     
     /* saiba mais da esquerda */
     .botao {
-        height: 30px;
-        width: 95px;
+        width: 110px;
         margin: 0;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-        border-radius: 5px;
+        margin-top: 30px;
+        padding: 5px;
+        font-size:15px;
     }
-    .botao a {
-        text-decoration: none;
-        padding: 12px 15px;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 11px;
-    }
-    .botao:hover{
-        background-image: linear-gradient(rgb(160, 238, 44),rgb(120,198,0));
-        border-radius: 5px;
-    }
-    .botao a:hover {
-        color:rgb(99,102,107);
-    }
-    
     
 
     /* saiba mais da direita */
-    .botao-1{
-        height: 30px;
-        width: 95px;
+    .botao-1 {
+        width: 110px;
         margin: 0;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-        border-radius: 5px;
-    }
-    .botao-1 a {
-        text-decoration: none;
-        padding: 12px 15px;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 11px;
-    }
-    .botao-1:hover{
-        background-image: linear-gradient(rgb(160, 238, 44),rgb(120,198,0));
-        border-radius: 5px;
-        height: 30px;
-        width: 95px;
-    }
-    .botao-1 a:hover {
-        color:rgb(99,102,107);
+        margin-top: 35px;
+        padding: 5px;
+        font-size:15px;
     }
 }
-
 @media screen and (min-width:701px) and (max-width:900px) {
     /* logo */
     .logo {
