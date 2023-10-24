@@ -190,198 +190,6 @@
     width: 500px;
     margin-right: 70px;
     border-radius: 10px;
-}*{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-/* logo*/
-.logo {
-    height: 150px;
-    background-color: rgb(229,179,123);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.logo img{
-    height: 150px;
-    border-radius: 100px;
-}
-
-
-/* fundo inicial */
-.one{
-    height: 539px;
-}
-
-.menu img{
-    height: 539px;
-    width: 100%;
-    position:absolute;
-    z-index: -1;
-}
-.color{
-    background-color: rgba(0,0,0, 0.3);
-    height: 539px;
-    width: 100%;
-    position:absolute;
-    z-index: -1;
-}
-
-
-/* escolhas do produto */
-.produtos-global{
-    display: inline;
-    height: 539px;
-}
-.menu-produto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(238, 229, 229);
-    height: 100px;
-}
-.produto{
-    width: 155px;
-    background-color: rgb(99,102,107);
-    border-radius: 50px;
-    margin-top: 300px;
-}
-.produto a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    padding: 20px 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.produto a:hover {
-    color:rgb(187, 255, 0);
-}
-
-
-/* sobre a loja */
-.sobre-loja{
-    background-color: rgba(0,0,0, 0.3);
-    height: 220px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fundo-img {
-    height:220px;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    background-position: end;
-}
-.sobre {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    width: 500px;
-    color: rgb(252, 252, 252);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    margin-left:70px;
-}
-.titulo{
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 15px;
-}
-.redes-socias a {
-    text-decoration: none;
-    color: white; 
-}
-.redes{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5px;
-    padding: 3px;
-    text-align: center;
-}
-.redes img {
-    height: 25px;
-    border-radius: 10px;
-}
-.redes:hover {
-    background-color:rgb(23,120,242);
-    border-radius: 20px;
-    transition: 1s;
-}
-
-.redes-2{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5px;
-    padding: 3px;
-    text-align: center;
-    
-}
-.redes-2 img {
-    height: 25px;
-    border-radius: 10px;
-}
-.redes-2:hover {
-    background-color:rgb(191,45,120);
-    border-radius: 20px;
-    transition: 1s;
-}
-
-.redes-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1px;
-    text-align: center;
-}
-.redes-3 img, a{
-    height: 45px;
-    text-decoration: none;
-    color: white;
-    margin-top: 3px;
-}
-.redes-3:hover {
-    background-color:rgb(50,217,81);
-    border-radius: 20px;
-    transition: 1s;
-}
-
-
-.borda {
-    height: 100px;
-    width: 3px;
-    background-color: white;
-}
-
-
-.contato {
-    padding-right:10px;
-    text-align: center;
-    padding: 10px;
-
-}
-.mapa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 190px;
-    width: 500px;
-    
-}
-
-.mapa iframe{
-    height: 200px;
-    width: 500px;
-    margin-right: 70px;
-    border-radius: 10px;
 }
 
 /* produtos */
@@ -513,7 +321,7 @@
     display: flex;
 }
 .escolhas7{
-    height:80vh;
+    height:650px;
     width: 100%;
     display: none;
     justify-content: center;
@@ -596,11 +404,12 @@
     cursor: pointer;
 }
 .botao:hover{
+    transition: 1s;
+    color:rgb(99,102,107);
     background-image: linear-gradient(rgb(160, 238, 44),rgb(120,198,0));
     border-radius: 10px;
-    color:rgb(99,102,107);
+    
 }
-
 
 
 /* saiba mais direita */
@@ -619,6 +428,7 @@
     cursor: pointer;
 }
 .botao-1:hover{
+    transition: 1s;
     background-image: linear-gradient(rgb(160, 238, 44),rgb(120,198,0));
     border-radius: 10px;
     color:rgb(99,102,107);
