@@ -1,4 +1,4 @@
-alert('Esta página é apenas uma landing, e não representa diretamente um site de venda.');
+alert('Esta página é apenas uma landing page, e não representa diretamente um site de venda. ;)');
 function abrir0(){
     const modal = document.getElementById('escolhas0');
     modal.classList.add("abrir");
