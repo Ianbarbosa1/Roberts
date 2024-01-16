@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
 /* logo*/
 .logo {
     height: 150px;
@@ -22,7 +24,6 @@
 .one{
     height: 539px;
 }
-
 .menu img{
     height: 539px;
     width: 100%;
@@ -80,7 +81,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .fundo-img {
     height:220px;
     width: 100%;
@@ -108,6 +108,7 @@
     text-decoration: none;
     color: white; 
 }
+/* facebook */
 .redes{
     display: flex;
     justify-content: center;
@@ -124,14 +125,13 @@
     border-radius: 20px;
     transition: 1s;
 }
-
+/* instagram */
 .redes-2{
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
     padding: 3px;
     text-align: center;
-    
 }
 .redes-2 img {
     height: 25px;
@@ -142,7 +142,7 @@
     border-radius: 20px;
     transition: 1s;
 }
-
+/* whatsapp*/
 .redes-3{
     display: flex;
     justify-content: center;
@@ -161,30 +161,24 @@
     border-radius: 20px;
     transition: 1s;
 }
-
-
 .borda {
     height: 100px;
     width: 3px;
     background-color: white;
 }
-
-
 .contato {
     padding-right:10px;
     text-align: center;
     padding: 10px;
-
 }
+/*localização*/
 .mapa{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 190px;
     width: 500px;
-    
 }
-
 .mapa iframe{
     height: 200px;
     width: 500px;
@@ -192,11 +186,11 @@
     border-radius: 10px;
 }
 
+
 /* produtos */
 .amostra {
     display: flex;
 }    
-
 .sobre-produto{
     margin-top: 100px;
     margin-left: 100px;
@@ -219,11 +213,13 @@
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* Produtos a esquerda */
 .img-produto img{
     height: 600px;
     width: 650px;
     margin-left: 80px;
 }
+/* Produtos a direita */
 .sobre-produto-2{
     margin-top: 100px;
 }
@@ -235,7 +231,6 @@
 
 
 /* abertura e fechadura de modais */
-
 .escolhas0{
     height:80vh;
     width: 100%;
@@ -332,41 +327,48 @@
 .escolhas7.abrir{
     display: flex;
 }
+
+
+/* modal de  escolha de sabor  */
 .fechar{
     color: white;
     font-size: 15px;
     position: absolute;
     display: flex;
-    justify-content: end;
     align-items: center;
     width: 100%;
 }
 .X{
     height: 23px;
-    width: 20px;
+    width: 23px;
     border-radius: 5px;
     background-color:rgb(99,102,107) ;
     cursor: pointer;
-    margin-left: 289px;
+    margin: 0;
+}
+.X:hover{
+    color:greenyellow
 }
 .escolha-titulo{
     margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: underline;
 }
 .escolha{
     text-align: center;
-    height: 150px;
-    width: 300px;
+    height: 170px;
+    width: 350px;
     background-color:white;
+    border-radius: 30px;
 }
 .tipos {
     display: flex;
     height: 200px;
     margin-top: 20px;
-    
 }
 .selecao-sabor, option{
     height: 25px;
-    width: 100px;
+    width: 120px;
     font-size: 15px;
     border: 1px solid rgb(235, 139, 29);
     border-radius: 10px;
@@ -382,10 +384,11 @@
     color:rgb(99,102,107);
     justify-content: center;
     align-items: center;
-    padding: 3px;
+    padding: 10px;
+}
+.escolha a:hover{
     color: black;
 }
-
 
 
 /* saiba mais esquerda */
@@ -408,7 +411,6 @@
     color:rgb(99,102,107);
     background-image: linear-gradient(rgb(160, 238, 44),rgb(120,198,0));
     border-radius: 10px;
-    
 }
 
 
