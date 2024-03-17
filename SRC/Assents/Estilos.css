@@ -237,7 +237,7 @@
 
 /* abertura e fechadura de modais */
 .escolhas0{
-    height:99vh;
+    height:75vh;
     width: 100%;
     display: none;
     justify-content: center;
@@ -251,7 +251,7 @@
     align-items: center;
 }
 .escolhas1{
-    height:80vh;
+    height:75vh;
     width: 100%;
     display: none;
     justify-content: center;
@@ -263,7 +263,7 @@
     display: flex;
 }
 .escolhas2{
-    height:80vh;
+    height:75vh;
     width: 100%;
     display: none;
     justify-content: center;
@@ -275,7 +275,7 @@
     display: flex;
 }
 .escolhas3{
-    height:80vh;
+    height:75vh;
     width: 100%;
     display: none;
     justify-content: center;
@@ -287,7 +287,7 @@
     display: flex;
 }
 .escolhas4{
-    height:80vh;
+    height:75vh;
     width: 100%;
     display: none;
     justify-content: center;
@@ -299,7 +299,7 @@
     display: flex;
 }
 .escolhas5{
-    height:80vh;
+    height:75vh;
     width: 100%;
     display: none;
     justify-content: center;
@@ -311,7 +311,7 @@
     display: flex;
 }
 .escolhas6{
-    height:80vh;
+    height:75vh;
     width: 100%;
     display: none;
     justify-content: center;
