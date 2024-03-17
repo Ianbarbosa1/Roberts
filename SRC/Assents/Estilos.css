@@ -190,6 +190,8 @@
 /* produtos */
 .amostra {
     display: flex;
+    background-color: rgba(153, 153, 153, 0.151);
+    width: 100%;
 }    
 .sobre-produto{
     margin-top: 100px;
@@ -232,16 +234,18 @@
 
 /* abertura e fechadura de modais */
 .escolhas0{
-    height:80vh;
+    height:99vh;
     width: 100%;
     display: none;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position:absolute;
     background-color: rgba(0,0,0, 0.3);
 }
 .escolhas0.abrir{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .escolhas1{
     height:80vh;
@@ -336,7 +340,7 @@
     position: absolute;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 50%;
 }
 .X{
     height: 23px;
@@ -350,9 +354,10 @@
     color:greenyellow
 }
 .escolha-titulo{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family:cursive;
 }
 .escolha{
     text-align: center;
@@ -368,13 +373,13 @@
 }
 .selecao-sabor, option{
     height: 25px;
-    width: 120px;
+    width: 150px;
     font-size: 15px;
     border: 1px solid rgb(235, 139, 29);
     border-radius: 10px;
     outline: none;
     margin-bottom:30px ;
-    font-family:'Kalam', cursiva;
+    font-family:'Kalam', cursive;
 }
 .prosseguir {
     border-radius: 10px;
