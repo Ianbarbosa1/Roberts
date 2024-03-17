@@ -135,6 +135,23 @@
         margin-bottom:20px;
     }
 
+    /* abertura do ultimo modal*/
+    .escolhas7{
+        height:324px;
+        width: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: rgba(0,0,0, 0.3);
+    }
+    .tipos {
+        display: flex;
+        height: 110px;
+        margin-top: 20px;
+    }
+
+
 
     /* saiba mais da esquerda */
     .botao {
