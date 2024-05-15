@@ -6,7 +6,7 @@
 }
 
 
-/* logo*/
+/*LOGO*/
 .logo {
     height: 150px;
     background-color: rgb(229,179,123);
@@ -20,7 +20,7 @@
 }
 
 
-/* fundo inicial */
+/*FUNDO INICIAL*/
 .one{
     height: 539px;
 }
@@ -39,7 +39,7 @@
 }
 
 
-/* escolhas do produto */
+/*ESCOLHA DOS PRODUTOS*/
 .produtos-global{
     display: inline;
     height: 539px;
@@ -72,7 +72,7 @@
 }
 
 
-/* sobre a loja */
+/*DADOS DA LOJA*/
 .sobre-loja{
     background-color: rgba(0,0,0, 0.3);
     height: 220px;
@@ -108,10 +108,12 @@
     text-decoration: none;
     color: white; 
 }
-/* facebook */
+
+/*FACEBOOK*/
 .redes{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 5px;
     padding: 3px;
     text-align: center;
@@ -126,10 +128,11 @@
     transition: 1s;
 }
 
-/* instagram */
+/*INSTAGRAM*/
 .redes-2{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 5px;
     padding: 3px;
     text-align: center;
@@ -144,7 +147,7 @@
     transition: 1s;
 }
 
-/* whatsapp*/
+/*WHATSAPP*/
 .redes-3{
     display: flex;
     justify-content: center;
@@ -174,7 +177,7 @@
     padding: 10px;
 }
 
-/*localização*/
+/*LOCALIZAÇÃO*/
 .mapa{
     display: flex;
     justify-content: center;
@@ -190,7 +193,7 @@
 }
 
 
-/* produtos */
+/*PRODUTOS*/
 .amostra {
     display: flex;
     background-color: rgba(153, 153, 153, 0.151);
@@ -218,13 +221,14 @@
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* Produtos a esquerda */
+
+/*PRODUTOS A ESQUERDA*/
 .img-produto img{
     height: 600px;
     width: 650px;
     margin-left: 80px;
 }
-/* Produtos a direita */
+/*PRODUTOS A DIREITA*/
 .sobre-produto-2{
     margin-top: 100px;
 }
@@ -235,7 +239,7 @@
 }
 
 
-/* abertura e fechadura de modais */
+/*ABERTURA E FECHADURA DE MODAIS*/
 .escolhas0{
     height:75vh;
     width: 100%;
@@ -247,8 +251,6 @@
 }
 .escolhas0.abrir{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .escolhas1{
     height:75vh;
@@ -336,7 +338,7 @@
 }
 
 
-/* modal de  escolha de sabor  */
+/*MODAL DE ESCOLHA DE SABOR*/
 .fechar{
     color: white;
     font-size: 15px;
@@ -369,7 +371,7 @@
     background-color:white;
     border-radius: 30px;
 }
-.tipos {
+.tipos{
     display: flex;
     height: 200px;
     margin-top: 20px;
@@ -384,6 +386,8 @@
     margin-bottom:30px ;
     font-family:'Kalam', cursive;
 }
+
+/*BOTÃO DE PROSSEGUIR*/
 .prosseguir {
     border-radius: 10px;
     height: 35px;
@@ -399,7 +403,7 @@
 }
 
 
-/* saiba mais esquerda */
+/*SAIBA MAIS A ESQUERDA*/
 .botao {
     width: 150px;
     background-image:linear-gradient(rgb(229,179,123), rgb(206, 153, 93), rgb(235, 139, 29));
@@ -422,7 +426,7 @@
 }
 
 
-/* saiba mais direita */
+/*SAIBA MAIS A DIREITA*/
 .botao-1 {
     width: 150px;
     background-image:linear-gradient(rgb(229,179,123), rgb(206, 153, 93), rgb(235, 139, 29));
@@ -444,7 +448,7 @@
     color:rgb(99,102,107);
 }
 
-/* rodapé */
+/*RODAPÉ*/
 .end{
     height: 50px;
     width: 100%;
