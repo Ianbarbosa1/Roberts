@@ -1,5 +1,5 @@
-@media screen and (min-width:350px) and (max-width:600px) {
-    /* logo */
+@media screen and (min-width:400px) and (max-width:600px) {
+    /*LOGO*/
     .logo {
         height: 100px;
     }
@@ -9,7 +9,8 @@
         border-radius: 100px;
     }
 
-    /* fundo inicial */
+
+    /*FUNDO INICIAL*/
     .one{
         height: 320px;
     }
@@ -21,7 +22,7 @@
     }
 
 
-    /* escolhas do produto */
+    /*ESCOLHA DO PRODUTO*/
     .menu-produto{
         display: flex;
         flex-wrap: wrap;
@@ -39,13 +40,12 @@
         padding: 5px 5px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-
     .SB{
         display: none;
     }
 
         
-    /* sobre a loja */
+    /*DADOS SOBRE A LOJA*/
     .sobre-loja{
         height: 500px;
         display: block;
@@ -53,7 +53,6 @@
     }
     .fundo-img {
         height:200px;
-
     }
     .sobre {
         height: 150px;
@@ -64,11 +63,22 @@
         font-size: 14px;
         margin-bottom: 13px;
     }
+
+    /*FACEBOOK*/
     .redes{
         padding: 3px;
         margin: 5px 0px;
+        text-align: center;
     }
     .redes img {
+        height: 20px;     
+    }
+
+    /*INSTAGRAM*/
+    .redes-2 {
+        text-align: center;   
+    }
+    .redes-2 img{
         height: 20px;     
     }
     .borda {
@@ -78,11 +88,14 @@
         padding: 0px;
         margin: 0;
     }
-
+    
+    /*WHATSAPP*/
     .redes-3 img, a{
         margin-top: 3px;
     }
 
+
+    /*MAPA*/
     .mapa{
         margin-top:40px;
         height: 320px;
@@ -95,6 +108,7 @@
         margin-right:0px;
     }
 
+    /*SOBRE OS PRODUTOS*/
     .sobre-produto{
         margin-top: 20px;
         margin-left: 50px;
@@ -114,6 +128,7 @@
         margin: 0;
     }
 
+    /*PRODUTOS DA ESQUERDA*/
     .img-produto{
         display: flex;
     }
@@ -124,6 +139,7 @@
         margin-bottom: 30px;
     }
 
+    /*PRODUTOS A DIREITA*/
     .sobre-produto-2{
         margin-top: 0px;
         margin-right:50px ;
@@ -135,7 +151,7 @@
         margin-bottom:20px;
     }
 
-    /* abertura do ultimo modal*/
+    /*ABERTRA DO ULTIMO MODAL*/
     .escolhas7{
         height:324px;
         width: 100%;
@@ -152,8 +168,7 @@
     }
 
 
-
-    /* saiba mais da esquerda */
+    /*SAIBA MAIS A ESQUERDA*/
     .botao {
         width: 90px;
         margin: 0;
@@ -163,9 +178,8 @@
         font-size:11px;
         cursor: pointer;
     }
- 
 
-    /* saiba mais da direita */
+    /*SAIBA MAIS A DIREITA*/
     .botao-1 {
         width: 90px;
         margin: 0;
@@ -177,17 +191,16 @@
     }
 }
 @media screen and (min-width:601px) and  (max-width:700px) {
-    /* logo */
+    /*LOGO*/
     .logo {
         height: 150px;
     }
-
     .logo img{
         height: 150px;
         border-radius: 100px;
     }
 
-    /* fundo inicial */
+    /*FUNDO INICIAL*/
     .one{
         height: 496px;
     }
@@ -199,7 +212,7 @@
     }
 
 
-    /* escolhas do produto */
+    /*ESCOLHA DOS PRODUTOS*/
     .menu-produto{
         display: flex;
         padding-top: 150px;
@@ -216,8 +229,8 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-        
-    /* sobre a loja */
+
+    /*DADOS SOBRE A LOJA*/
     .sobre-loja{
         height: 600px;
         display: block;
@@ -253,7 +266,6 @@
         margin-top:45px;
         height: 410px;
         width: 100%;
-        
     }
     .mapa iframe{
         height: 390px;
@@ -261,6 +273,8 @@
         margin-right:0px;
     }
 
+
+    /*SOBRE OS PRODUTOS*/
     .sobre-produto{
         margin-top: 50px;
         margin-left: 17px;
@@ -279,58 +293,59 @@
         margin: 0;
     }
 
+    /*PRODUTOS A ESQUERDA*/
     .img-produto{
         display: flex;
     }
     .img-produto img{
         height: 350px;
-        width: 370px;
+        width: 340px;
         margin:0px;
         margin-bottom:20px;
     }
+
+    /*PRODUTOS A DIREITA*/
     .sobre-produto-2{
         margin-top: 50px;
         margin-left: 30px;
     }
     .img-produto-2 img{
         height: 350px;
-        width: 355px;
+        width: 340px;
         margin:0;
         margin-bottom:20px;
     }  
 
-    
-    /* saiba mais da esquerda */
+    /*SAIBA MAIS A ESQUERDA*/
     .botao {
         width: 110px;
         margin: 0;
-        margin-top: 30px;
+        margin-top: 25px;
         padding: 5px;
         font-size:15px;
     }
     
-
-    /* saiba mais da direita */
+    /*SAIBA MAIS A DIREITA*/
     .botao-1 {
         width: 110px;
         margin: 0;
-        margin-top: 35px;
+        margin-top: 25px;
         padding: 5px;
         font-size:15px;
     }
 }
 @media screen and (min-width:701px) and (max-width:900px) {
-    /* logo */
+    /*LOGO*/
     .logo {
         height: 150px;
     }
-
     .logo img{
         height: 150px;
         border-radius: 100px;
     }
 
-    /* fundo inicial */
+
+    /*FUNDO INICIAL*/
     .one{
         height: 496px;
     }
@@ -342,7 +357,7 @@
     }
 
 
-    /* escolhas do produto */
+    /*ESCOLHA DOS PRODUTOS*/
     .menu-produto{
         display: flex;
         padding-top: 150px;
@@ -360,7 +375,7 @@
     }
 
         
-    /* sobre a loja */
+    /*DADOS DA LOJA*/
     .sobre-loja{
         height: 600px;
         display: block;
@@ -396,7 +411,6 @@
         margin-top:45px;
         height: 410px;
         width: 100%;
-        
     }
     .mapa iframe{
         height: 390px;
@@ -404,10 +418,9 @@
         margin-right:0px;
     }
 
-
+    /*SOBRE OS PRODUTOS*/
     .sobre-produto{
-        margin-top: 50px;
-        margin-left: 30px;
+        margin: 30px 0px 0px 10px;
     }
     .nome{
         font-size: 20px;
@@ -420,7 +433,62 @@
     .descricao, ul, li{
         font-size: 15px;
         width: 260px;
-        margin: 0;
+        margin-left:10px;
+    }
+    .img-produto{
+        display: flex;
+    }
+    .img-produto img{
+        height: 400px;
+        width: 400px;
+        margin:0px;
+        margin-bottom:20px;
+    }
+    .sobre-produto-2{
+        margin: 30px 10px 0px 0px;
+    }
+    .img-produto-2 img{
+        height: 400px;
+        width: 400px;
+        margin:0;
+        margin-bottom:20px;
+    }
+
+    /*BOTÃO*/
+    .botao{
+        margin-top: 80px;
+        font-size: 15px;
+        padding: 10px 29px;
+    }
+    .botao-1{
+        margin-top: 80px;
+        font-size: 15px;
+        padding: 10px 29px;
+    }
+}
+@media screen and (min-width:901px) and (max-width:1400px) {
+    /*SOBRE OS PRODUTOS*/
+    .sobre-produto{
+        margin: 40px 0px 0px 80px;
+    }
+    .nome{
+        font-size: 20px;
+    }
+    .barra {
+        height: 10px;
+        width: 90px;
+        margin-bottom: 10px;
+    }
+    .descricao, ul, li{
+        font-size: 15px;
+        width: 260px;
+        margin-left:10px;
+    }
+    .botao{
+        margin-top: 80px;
+    }
+    .botao-1{
+        margin-top: 80px;
     }
 
     .img-produto{
@@ -432,10 +500,8 @@
         margin:0px;
         margin-bottom:20px;
     }
-
     .sobre-produto-2{
-        margin-top: 50px;
-        margin-left: 30px;
+        margin: 40px 80px 0px 0px;
     }
     .img-produto-2 img{
         height: 500px;
