@@ -88,7 +88,7 @@
     background-size: cover;
     gap: 250px;
 }
-.sobre {
+.sobre{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,7 +410,6 @@
     display: flex;
     align-items: center;
     width: 50%;
-
 }
 .X{
     height: 23px;
