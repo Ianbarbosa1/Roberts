@@ -285,7 +285,7 @@
 @keyframes entradaimg {
     from {
         opacity: 0;
-        translate: 100vw 0;
+        translate: -100vw 0;
     }
 
     to{
@@ -304,10 +304,10 @@
     align-items: center;
     position: fixed;
     background-color: rgba(0,0,0, 0.3);
-    z-index: 1;
 }
 .escolhas0.abrir{
     display: flex;
+    z-index: 99;
 }
 .escolhas1{
     height:100%;
@@ -317,10 +317,10 @@
     align-items: center;
     position:fixed;
     background-color: rgba(0,0,0, 0.3);
-    z-index: 1;
 }
 .escolhas1.abrir{
     display: flex;
+    z-index: 99;
 }
 .escolhas2{
     height:100%;
@@ -330,10 +330,10 @@
     align-items: center;
     position: fixed;
     background-color: rgba(0,0,0, 0.3);
-    z-index: 1;
 }
 .escolhas2.abrir{
     display: flex;
+    z-index: 99;
 }
 .escolhas3{
     height:100%;
@@ -343,10 +343,10 @@
     align-items: center;
     position: fixed;
     background-color: rgba(0,0,0, 0.3);
-    z-index: 1;
 }
 .escolhas3.abrir{
     display: flex;
+    z-index: 99;
 }
 .escolhas4{
     height:100%;
@@ -369,10 +369,10 @@
     align-items: center;
     position: fixed;
     background-color: rgba(0,0,0, 0.3);
-    z-index: 1;
 }
 .escolhas5.abrir{
     display: flex;
+    z-index: 99;
 }
 .escolhas6{
     height:100%;
@@ -382,10 +382,10 @@
     align-items: center;
     position: fixed;
     background-color: rgba(0,0,0, 0.3);
-    z-index: 1;
 }
 .escolhas6.abrir{
     display: flex;
+    z-index: 99;
 }
 .escolhas7{
     height:100%;
@@ -395,10 +395,10 @@
     align-items: center;
     position: fixed;
     background-color: rgba(0,0,0, 0.3);
-    z-index: 1;
 }
 .escolhas7.abrir{
     display: flex;
+    z-index: 99;
 }
 
 
