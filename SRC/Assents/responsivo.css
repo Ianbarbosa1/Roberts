@@ -2,95 +2,95 @@
    /*FUNDO INICIAL*/
    .one{
     height: 580px;
-}
-.menu img{
-    height: 580px;
-}
-.color{
-    height: 580px;
-}
-.produtos{ 
-    height: 580px;
-}
+    }
+    .menu img{
+        height: 580px;
+    }
+    .color{
+        height: 580px;
+    }
+    .produtos{ 
+        height: 580px;
+    }
 
-/*DADOS DA LOJA*/
-.sobre-loja{
-    gap: 50px;
-    display: block;
-    height: 470px;
-}
-.sobre {
-    gap: 25px;
-    padding-top: 25px;
-}
-/*LOCALIZAÇÃO*/
-.mapa{
-    height: 300px;
-    width: 100%;
-    margin-top: 10px;
-}
-.mapa iframe{
-    height: 300px;
-    width: 450px;
-}
+    /*DADOS DA LOJA*/
+    .sobre-loja{
+        gap: 50px;
+        display: block;
+        height: 470px;
+    }
+    .sobre {
+        gap: 25px;
+        padding-top: 25px;
+    }
+    /*LOCALIZAÇÃO*/
+    .mapa{
+        height: 300px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .mapa iframe{
+        height: 300px;
+        width: 450px;
+    }
 
-/*PRODUTOS*/
-.amostra {
-    height: 100%;
-    gap:10px;
-    border: 10px;
-    border-style:outset;
-    border-color: rgb(229,179,123) rgb(129, 59, 5);
-}
-.descricao{ 
-    width: 400px;
-    font-size: 20px;
-}
-.nome{
-    font-size: 30px;
-}
-.SB{
-    font-size: 15px;
-}
-.SB-S{
-    font-size: 15px;
-}
+    /*PRODUTOS*/
+    .amostra {
+        height: 100%;
+        gap:10px;
+        border: 10px;
+        border-style:outset;
+        border-color: rgb(229,179,123) rgb(129, 59, 5);
+    }
+    .descricao{ 
+        width: 400px;
+        font-size: 20px;
+    }
+    .nome{
+        font-size: 30px;
+    }
+    .SB{
+        font-size: 15px;
+    }
+    .SB-S{
+        font-size: 15px;
+    }
 
-/*PRODUTOS A ESQUERDA*/
-.img-produto img{
-    height: 250px;
-    width: 250px;
-    position: absolute;
-    right: 25px;
-}
+    /*PRODUTOS A ESQUERDA*/
+    .img-produto img{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        right: 25px;
+    }
 
-/*PRODUTOS A DIREITA*/
-.img-produto-2 img{
-    height: 250px;
-    width: 250px;
-    position: absolute;
-    right: 20px;
-    margin-top: 20px;
-}
+    /*PRODUTOS A DIREITA*/
+    .img-produto-2 img{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        right: 20px;
+        margin-top: 20px;
+    }
 
-.botao-1 {
-    margin-left: 0px;
-}
+    .botao-1 {
+        margin-left: 0px;
+    }
 
-/*RODAPÉ*/
-footer{
-    gap: 25px;
-}
-.roberts-imagem{
-    height: 120px;
-    margin-left: 10px;
-}
-.divisoria{
-    height: 150px;
-}
-.cnpj{
-    font-size: 15px;
-}
+    /*RODAPÉ*/
+    footer{
+        gap: 25px;
+    }
+    .roberts-imagem{
+        height: 120px;
+        margin-left: 10px;
+    }
+    .divisoria{
+        height: 150px;
+    }
+    .cnpj{
+        font-size: 15px;
+    }
 }
 @media screen and (min-width:651px) and  (max-width:1023px) {
     /*FUNDO INICIAL*/
@@ -126,7 +126,7 @@ footer{
     .mapa iframe{
         height: 300px;
         width: 500px;
-}
+    }
 
     /*PRODUTOS*/
     .amostra {
