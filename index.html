@@ -4,60 +4,272 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roberts.Mix</title>
+    <link rel="website icon"  type="png" href="./SRC/Imagens/img3.jpg">
     <link rel="stylesheet" href="./SRC/Assents/Estilos.css">
     <link rel="stylesheet" href="./SRC/Assents/responsivo.css">
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Neucha&display=swap" rel="stylesheet">
 </head>
 <body id="body">
+    <!-- SETORES INVISIVEIS-->
+    <section> 
+        <div class="escolhas0" id="escolhas0">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">✖</div>
+                </div>
+
+                <div> 
+                    <p class="escolha-titulo"> Escolha o sabor desejado:</p>
+                    <div class="tipos">
+                        <div>
+                            <select name="" id="opcoesS0" onchange="saborAcai()" class="selecao-sabor">
+                                <option value="">Opções aqui!</option>
+                                <option value="">Natural</option>
+                                <option value="">Banana</option>
+                                <option value="">Morango</option>
+                                </select>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#acai" id="prosseguir1" class="prosseguir"></a>
+            </div>
+        </div>    
+
+        <div class="escolhas1" id="escolhas1">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">✖</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor ou o tipo desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS1" onchange="saborBebida()" class="selecao-sabor">
+                            <option value="">Opções aqui!</option>
+                            <option value="">Goiaba</option>
+                            <option value="">Maracujá</option>
+                            <option value="">Laranja</option>
+                            <option value="">Morango</option>
+                            <option value="">Suco mix</option>
+                            <option value="">Guaravita</option>
+                            <option value="">Coca-cola</option>
+                        </select>
+                        <p>Obs: Consultar tamanho ao atendente!</p>
+                    </div>  
+                </div>
+
+                <a href="#bebida" id="prosseguir2" class="prosseguir"></a>
+                
+            </div>
+        </div>
+
+        <div class="escolhas2" id="escolhas2">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">✖</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS2" onchange="saborCrepioca()" class="selecao-sabor">
+                            <option value="">Opções aqui!</option>
+                            <option value="">Camarão</option>
+                            <option value="">Carne</option>
+                            <option value="">Frango</option>
+                            <option value="">Ovos</option>
+                            <option value="">Rucula</option>
+                            <option value="">Light</option>
+                            <option value="">Quatro-queijos</option>
+                            <option value="">Super-leve</option>
+                            <option value="">Vegetariana</option>
+                            <option value="">Mista</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="#crepioca" id="prosseguir3" class="prosseguir"></a>
+                
+            </div>
+        </div>
+
+        <div class="escolhas3" id="escolhas3">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">✖</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS3" onchange="saborTapioca()" class="selecao-sabor">
+                            <option value="">Opções aqui!!!</option>
+                            <option value="">Calabresa</option>
+                            <option value="">Camarão</option>
+                            <option value="">Carne seca</option>
+                            <option value="">Frango</option>
+                            <option value="">Ovos</option>
+                            <option value="">Quatro-queijos</option>
+                            <option value="">Light</option>
+                            <option value="">Mista</option>
+                            <option value="">Super-leve</option>
+                            <option value="">Fit</option>
+                            <option value="">Vegetariana</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="#tapioca" id="prosseguir4" class="prosseguir"></a>
+                
+            </div>
+        </div>
+
+        <div class="escolhas4" id="escolhas4">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">✖</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o tipo de salgado desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS4" onchange="saborSalgado()" class="selecao-sabor">
+                            <option value="">Opções aqui!</option>
+                            <option value="">Quiche de alho Poró</option>
+                            <option value="">Quiche de Espinafre</option>
+                            <option value="">Quiche de Queijo</option>
+                            <option value="">Wrap Primavera</option>
+                            <option value="">Wrap super-leve</option>
+                            <option value="">Croissant de frango</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="#salgado" id="prosseguir5" class="prosseguir"></a>
+            </div>
+        </div>
+
+        <div class="escolhas5" id="escolhas5">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">✖</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS5" onchange="saborSanduiche()" class="selecao-sabor">
+                            <option value="">Opções aqui!</option>
+                            <option value="">Atum</option>
+                            <option value="">Frango</option>
+                            <option value="">Peito de peru</option>
+                            <option value="">Integral</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="#sanduiche" id="prosseguir6" class="prosseguir"></a>
+            </div>
+        </div>
+
+        <div class="escolhas6" id="escolhas6">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">✖</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS6" onchange="saborPanqueca()" class="selecao-sabor">
+                            <option value="">Opções aqui!</option>
+                            <option value="">Carne</option>
+                            <option value="">Quatro-queijos</option>
+                            <option value="">Camarão-imperial</option>
+                            <option value="">Ovos</option>
+                            <option value="">Frango</option>
+                            <option value="">Light</option>
+                            <option value="">Mista</option>
+                            <option value="">Rainha-do-nordeste</option>
+                            <option value="">Super-leve</option>
+                            <option value="">Vegetariana</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="#panqueca" id="prosseguir7" class="prosseguir"></a>
+            </div>
+        </div>
+
+        <div class="escolhas7" id="escolhas7">
+            <div class="escolha">
+                <div class="fechar"> 
+                    <div class="X" id="fechar">✖</div>
+                </div>
+                
+                <p class="escolha-titulo"> Escolha o tipo de salada desejado:</p>
+                <div class="tipos">
+                    <div>
+                        <select name="" id="opcoesS7" onchange="saborSalada()" class="selecao-sabor">
+                            <option value="">Opções aqui!</option>
+                            <option value="">Legumes</option>
+                            <option value="">Frutas</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <a href="#salada" id="prosseguir8" class="prosseguir"></a>
+            </div>
+        </div>
+    </section>
+
+    <!--lOGO-->
     <Section>
         <div class="logo">
             <img src="./SRC/Imagens/img3.jpg" alt="">
         </div>
     </Section>
 
+    <!--ESCOLHAS-->
     <section class="one"> 
         <div class="menu">
             <img src="./SRC/Imagens/bg.jpg" alt="">
             <div class="color"></div>
     
-            <div class="produtos-global">
-                <div class="menu-produto">
-                    <div class="produto"> 
-                        <a href="#acai">AÇAI</a> 
-                    </div>
-                    <div class="produto"> 
-                        <a href="#bebida">BEBIDAS</a>
-                    </div>
-                    <div class="produto"> 
-                        <a href="#crepioca">CREPIOCAS</a>
-                    </div>
-                    <div class="produto"> 
-                        <a href="#tapioca">TAPIOCAS</a>
-                    </div>
+            <div class="produtos">
+                <div class="produto"> 
+                    <a href="#acai">AÇAI</a> 
+                </div>
+                <div class="produto"> 
+                    <a href="#bebida">BEBIDAS</a>
+                </div>
+                <div class="produto"> 
+                    <a href="#crepioca">CREPIOCAS</a>
+                </div>
+                <div class="produto"> 
+                    <a href="#tapioca">TAPIOCAS</a>
                 </div>
 
-                <div class="menu-produto"> 
-                    <div class="produto"> 
-                        <a href="#salgado">SALGADOS</a>
-                    </div>
-                    <div class="produto"> 
-                        <a href="#sanduiche">SANDUICHES</a>
-                    </div>
-                    <div class="produto"> 
-                        <a href="#panqueca">PANQUECAS</a>
-                    </div>
-                    <div class="produto"> 
-                        <a href="#salada">SALADAS</a>
-                    </div>
+                <div class="produto"> 
+                    <a href="#salgado">SALGADOS</a>
                 </div>
-                
+                <div class="produto"> 
+                    <a href="#sanduiche">SANDUICHES</a>
+                </div>
+                <div class="produto"> 
+                    <a href="#panqueca">PANQUECAS</a>
+                </div>
+                <div class="produto"> 
+                    <a href="#salada">SALADAS</a>
+                </div>
             </div>
         </div>
     </section> 
 
+    <!--SOBRE A LOJA-->
     <section>
         <div class="sobre-loja"> 
-            <img src="./SRC/Imagens/Parede.jpg" class="fundo-img"> 
             <div class="sobre"> 
                 <div class="borda"></div>
 
@@ -102,92 +314,29 @@
         </div> 
     </section> 
 
-    <hr>
-
-
     <section id="acai">
-        <div class="hallo"> 
-            <div class="escolhas0" id="escolhas0">
-                    <div class="escolha">
-                        <div class="fechar"> 
-                            <div class="X" id="fechar">✖</div>
-                        </div>
-                        <div> 
-                            <p class="escolha-titulo"> Escolha o sabor desejado:</p>
-                            <div class="tipos">
-                                <div>
-                                    <select name="" id="opcoesS0" onchange="saborAcai()" class="selecao-sabor">
-                                        <option value="">Opções aqui!</option>
-                                        <option value="">Natural</option>
-                                        <option value="">Banana</option>
-                                        <option value="">Morango</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#acai" id="prosseguir1" class="prosseguir">
-                            PROSSEGUIR
-                        </a>
-                    </div>
-            </div>    
-        </div>
-
         <div class="amostra" id="amostra">
-                <div class="sobre-produto" id="sobre-produto"> 
-                    <p class="nome" >AÇAI NATURAL</p>
-                    <nav class="barra"></nav>
-                    <p class="descricao">
+            <div class="sobre-produto" id="sobre-produto"> 
+                <p class="nome" >AÇAI NATURAL</p>
+                <nav class="barra"></nav>
+                <p class="descricao">
                         Buscamos não apenas satisfazer o seu paladar, mas também nutrir a sua jornada de bem-estar. Cada copo é uma obra-prima feita com açaí puro, ingredientes frescos e paixão genuína.
-                            <br><br>
                         <ul class="SB">Sabores disponiveis:
                             <li>Natural</li>
                             <li>Banana</li>
                             <li>Morango</li>
                         </ul>  
                     </p>
+                <div onclick="abrir0()" class="botao" id="acais">SAIBA MAIS</div>
+            </div>
 
-                    <div onclick="abrir0()" class="botao" id="acais" > 
-                        SAIBA MAIS
-                    </div>
-                </div>
-                <div class="img-produto" > 
-                    <img src="./SRC/Imagens/Produtos/Açai.jpeg" alt="">
-                </div>
+            <div class="img-produto" > 
+                <img src="./SRC/Imagens/Produtos/Açai.jpeg" alt="">
+            </div>
         </div>
     </section>
 
     <section id="bebida">
-        <div class="escolhas1" id="escolhas1">
-            
-            <div class="escolha">
-                <div class="fechar"> 
-                    <div class="X" id="fechar">✖</div>
-                </div>
-                
-                <p class="escolha-titulo"> Escolha o sabor ou o tipo desejado:</p>
-                <div class="tipos">
-                    <div>
-                        <select name="" id="opcoesS1" onchange="saborBebida()" class="selecao-sabor">
-                            <option value="">Opções aqui!</option>
-                            <option value="">Goiaba</option>
-                            <option value="">Maracujá</option>
-                            <option value="">Laranja</option>
-                            <option value="">Morango</option>
-                            <option value="">Suco mix</option>
-                            <option value="">Guaravita</option>
-                            <option value="">Coca-cola</option>
-                        </select>
-                        <p>Obs: Consultar tamanho ao atendente!</p>
-                    </div>  
-                </div>
-
-                <a href="#bebida" id="prosseguir2" class="prosseguir">
-                    PROSSEGUIR
-                </a>
-                
-            </div>
-        </div>
-
         <div class="amostra" >
             <div class="img-produto-2"> 
                 <img src="./SRC/Imagens/Produtos/SUCO.jpeg" alt="">
@@ -199,7 +348,7 @@
                 <p class="descricao">
                     Cada gole é uma jornada de sabor, uma celebração de frescor e uma dose de energia para o seu dia. Descubra a paixão em cada copo, onde o sabor e a saúde se encontram em harmonia.
                     <br><br>
-                    <ul class="SB"> Alguns dos sabores de bebidas naturais:
+                    <ul class="SB-S">Sabores de bebidas naturais:
                         <li>Goiaba</li>
                         <li>Maracujá</li>
                         <li>Morango</li>
@@ -213,39 +362,6 @@
     </section>
 
     <section id="crepioca">
-        <div class="escolhas2" id="escolhas2">
-            
-            <div class="escolha">
-                <div class="fechar"> 
-                    <div class="X" id="fechar">✖</div>
-                </div>
-                
-                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
-                <div class="tipos">
-                    <div>
-                        <select name="" id="opcoesS2" onchange="saborCrepioca()" class="selecao-sabor">
-                            <option value="">Opções aqui!</option>
-                            <option value="">Camarão</option>
-                            <option value="">Carne</option>
-                            <option value="">Frango</option>
-                            <option value="">Ovos</option>
-                            <option value="">Rucula</option>
-                            <option value="">Light</option>
-                            <option value="">Quatro-queijos</option>
-                            <option value="">Super-leve</option>
-                            <option value="">Vegetariana</option>
-                            <option value="">Mista</option>
-                        </select>
-                    </div>  
-                </div>
-
-                <a href="#crepioca" id="prosseguir3" class="prosseguir">
-                    PROSSEGUIR
-                </a>
-                
-            </div>
-        </div>
-
         <div class="amostra">
             <div class="sobre-produto"> 
                 <p class="nome" >CREPIÓCAS</p>
@@ -253,7 +369,7 @@
                 <p class="descricao">
                     Cada crepióca é uma sinfonia de texturas e sabores, um convite para explorar o inesperado. Desfrute de uma experiência única onde a tradição da tapioca e a versatilidade do crepe se unem em harmonia.
                     <br><br>
-                    <ul class="SB">Alguns dos sabores disponiveis: 
+                    <ul class="SB">Sabores disponiveis: 
                         <li>Quatro queijos</li>
                         <li>Carne</li>
                         <li>Frango</li>
@@ -270,40 +386,6 @@
     </section>
 
     <section id="tapioca">
-        <div class="escolhas3" id="escolhas3">
-            
-            <div class="escolha">
-                <div class="fechar"> 
-                    <div class="X" id="fechar">✖</div>
-                </div>
-                
-                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
-                <div class="tipos">
-                    <div>
-                        <select name="" id="opcoesS3" onchange="saborTapioca()" class="selecao-sabor">
-                            <option value="">Opções aqui!!!</option>
-                            <option value="">Calabresa</option>
-                            <option value="">Camarão</option>
-                            <option value="">Carne seca</option>
-                            <option value="">Frango</option>
-                            <option value="">Ovos</option>
-                            <option value="">Quatro-queijos</option>
-                            <option value="">Light</option>
-                            <option value="">Mista</option>
-                            <option value="">Super-leve</option>
-                            <option value="">Fit</option>
-                            <option value="">Vegetariana</option>
-                        </select>
-                    </div>  
-                </div>
-
-                <a href="#tapioca" id="prosseguir4" class="prosseguir">
-                    PROSSEGUIR
-                </a>
-                
-            </div>
-        </div>
-
         <div class="amostra">
             <div class="img-produto-2"> 
                 <img src="./SRC/Imagens/Produtos/TAPIOCA.jpeg" alt="">
@@ -315,7 +397,7 @@
                 <p class="descricao">
                     Cada tapioca é uma história de sabor esperando para ser contada, uma fusão de tradição e inovação que surpreende a cada mordida. Descubra o sabor autêntico e a simplicidade irresistível da tapioca em cadaprato.
                     <br><br>
-                    <ul class="SB"> Alguns dos sabores disponiveis:
+                    <ul class="SB-S">Sabores disponiveis:
                         <li>Calabresa</li>
                         <li>Camarão</li>
                         <li>Carne seca</li>
@@ -329,33 +411,6 @@
     </section>
 
     <section id="salgado">
-        <div class="escolhas4" id="escolhas4">
-            <div class="escolha">
-                <div class="fechar"> 
-                    <div class="X" id="fechar">✖</div>
-                </div>
-                
-                <p class="escolha-titulo"> Escolha o tipo de salgado desejado:</p>
-                <div class="tipos">
-                    <div>
-                        <select name="" id="opcoesS4" onchange="saborSalgado()" class="selecao-sabor">
-                            <option value="">Opções aqui!</option>
-                            <option value="">Quiche de alho Poró</option>
-                            <option value="">Quiche de Espinafre</option>
-                            <option value="">Quiche de Queijo</option>
-                            <option value="">Wrap Primavera</option>
-                            <option value="">Wrap super-leve</option>
-                            <option value="">Croissant de frango</option>
-                        </select>
-                    </div>  
-                </div>
-
-                <a href="#salgado" id="prosseguir5" class="prosseguir">
-                    PROSSEGUIR
-                </a>
-            </div>
-        </div>
-
         <div class="amostra">
             <div class="sobre-produto"> 
                 <p class="nome" >SALGADOS</p>
@@ -363,7 +418,7 @@
                 <p class="descricao">
                     O salgado é uma explosão de sabor, uma experiência que desperta os sentidos e faz seu paladar dançar. Descubra o equilíbrio perfeito entre textura, tempero e frescor em cada mordida.
                     <br><br>
-                    <ul class="SB">Alguns dos tipos disponiveis: 
+                    <ul class="SB-S">Tipos disponiveis: 
                         <li>Wrap primavera</li>
                         <li>Quiche</li>
                         <li>Croissant</li>
@@ -380,31 +435,6 @@
     </section>
 
     <section id="sanduiche">
-        <div class="escolhas5" id="escolhas5">
-            <div class="escolha">
-                <div class="fechar"> 
-                    <div class="X" id="fechar">✖</div>
-                </div>
-                
-                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
-                <div class="tipos">
-                    <div>
-                        <select name="" id="opcoesS5" onchange="saborSanduiche()" class="selecao-sabor">
-                            <option value="">Opções aqui!</option>
-                            <option value="">Atum</option>
-                            <option value="">Frango</option>
-                            <option value="">Peito de peru</option>
-                            <option value="">Integral</option>
-                        </select>
-                    </div>  
-                </div>
-
-                <a href="#sanduiche" id="prosseguir6" class="prosseguir">
-                    PROSSEGUIR
-                </a>
-            </div>
-        </div>
-
         <div class="amostra">
             <div class="img-produto-2"> 
                 <img src="./SRC/Imagens/Produtos/SANDUICHE.jpeg" alt="">
@@ -416,7 +446,7 @@
                 <p class="descricao">
                     O sanduíche natural é mais do que uma refeição - são uma celebração de sabores frescos e saudáveis. Cada sanduíche é uma sinfonia de ingredientes naturais. Descubra a delícia de uma refeição que cuida de você a cada mordida.
                     <br><br>
-                    <ul class="SB"> Alguns dos sabores disponiveis:
+                    <ul class="SB-S">Sabores disponiveis:
                         <li>Atum</li>
                         <li>Frango</li>
                         <li>Peito de peru</li>
@@ -430,44 +460,13 @@
     </section>
 
     <section id="panqueca">
-        <div class="escolhas6" id="escolhas6">
-            <div class="escolha">
-                <div class="fechar"> 
-                    <div class="X" id="fechar">✖</div>
-                </div>
-                
-                <p class="escolha-titulo"> Escolha o sabor desejado:</p>
-                <div class="tipos">
-                    <div>
-                        <select name="" id="opcoesS6" onchange="saborPanqueca()" class="selecao-sabor">
-                            <option value="">Opções aqui!</option>
-                            <option value="">Carne</option>
-                            <option value="">Quatro-queijos</option>
-                            <option value="">Camarão-imperial</option>
-                            <option value="">Ovos</option>
-                            <option value="">Frango</option>
-                            <option value="">Light</option>
-                            <option value="">Mista</option>
-                            <option value="">Rainha-do-nordeste</option>
-                            <option value="">Super-leve</option>
-                            <option value="">Vegetariana</option>
-                        </select>
-                    </div>  
-                </div>
-
-                <a href="#panqueca" id="prosseguir7" class="prosseguir">
-                    PROSSEGUIR
-                </a>
-            </div>
-        </div>
-
         <div class="amostra">
             <div class="sobre-produto"> 
                 <p class="nome" >PANQUECAS</p>
                 <nav class="barra"></nav>
                 <p class="descricao">
                     A panqueca é uma fusão de sabor e textura, uma jornada que começa o seu dia com alegria. Descubra o encanto de uma refeição reconfortante, onde o sabor e a qualidade se encontram a cada garfada.
-                    <ul class="SB">Alguns dos sabores disponiveis: 
+                    <ul class="SB">Sabores disponiveis: 
                         <li>Carne</li>
                         <li>Quatro queijos</li>
                         <li>Fit</li>
@@ -484,29 +483,6 @@
     </section>
 
     <section id="salada">
-        <div class="escolhas7" id="escolhas7">
-            <div class="escolha">
-                <div class="fechar"> 
-                    <div class="X" id="fechar">✖</div>
-                </div>
-                
-                <p class="escolha-titulo"> Escolha o tipo de salada desejado:</p>
-                <div class="tipos">
-                    <div>
-                        <select name="" id="opcoesS7" onchange="saborSalada()" class="selecao-sabor">
-                            <option value="">Opções aqui!</option>
-                            <option value="">Legumes</option>
-                            <option value="">Frutas</option>
-                        </select>
-                    </div>  
-                </div>
-
-                <a href="#salada" id="prosseguir8" class="prosseguir">
-                    PROSSEGUIR
-                </a>
-            </div>
-        </div>
-
         <div class="amostra">
             <div class="img-produto-2"> 
                 <img src="./SRC/Imagens/Produtos/SALADA.jpeg" alt="">
@@ -526,7 +502,16 @@
         </div>
     </section>
 
-    <footer>
+    <footer>  
+        <img src="./SRC/Imagens/robert mix img1.jpg" alt="" class="roberts-imagem">
+        <div class="divisoria"></div>
+        <div class="cnpj">
+            <p>Itaboraí, RJ - Brasil</p>
+            <p>CNPJ: 00000-000</p>
+            <p>2024</p>
+            <p>Espero que tenha gostado (^~^)</p>
+        </div>
+
         <div class="end"> Ian barbosa </div>
     </footer>
 
