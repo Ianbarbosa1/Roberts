@@ -73,7 +73,16 @@
         margin-top: 20px;
     }
 
+    /*SAIBA MAIS A ESQUERDA*/
+    .botao {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    /*SAIBA MAIS A DIREITA*/
     .botao-1 {
+        padding: 10px 30px;
+        font-size: 14px;
         margin-left: 0px;
     }
 
