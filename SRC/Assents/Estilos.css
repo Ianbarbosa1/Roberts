@@ -5,12 +5,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.prime{
-    position: fixed;
-    top: 10px;
-    right: 20px;
-}
-
 
 /*LOGO*/
 .logo {
@@ -219,7 +213,6 @@
     animation-timeline:view();
     animation-range: cover 0% 40%;
 }
-
 .nome{
     font-size: 50px;
     font-family:'Kalam', cursive;
@@ -499,7 +492,6 @@
     border-radius: 10px;
 }
 
-
 /*SAIBA MAIS A DIREITA*/
 .botao-1 {
     width: 150px;
@@ -522,6 +514,7 @@
     border-radius: 10px;
     color:rgb(99,102,107);
 }
+
 
 /*RODAPÉ*/
 footer{
