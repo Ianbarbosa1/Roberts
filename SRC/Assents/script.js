@@ -1,6 +1,5 @@
 alert('Esta página é apenas uma landing, e não representa diretamente um site de venda.');
 
-
 function abrir0(){
     const modal = document.getElementById('escolhas0');
     modal.classList.add("abrir");
@@ -11,6 +10,7 @@ function abrir0(){
         }
     })
 }
+
 
 function abrir1(){
     const modal = document.getElementById('escolhas1');
@@ -99,6 +99,8 @@ prosseguirFive = document.querySelector('#prosseguir5',);
 prosseguirSix = document.querySelector('#prosseguir6',);
 prosseguirSeven = document.querySelector('#prosseguir7',);
 prosseguirEight = document.querySelector('#prosseguir8',);
+prime = document.querySelectorAll('.prosseguir')
+
 //-------------------------------------------------------------------------------//
 
 
@@ -114,14 +116,24 @@ function saborAcai(){
         'Gostaria+de+saber+mais+sobre+o+açai+de+morango'
     ]
     
+    
     if(escolha === 'Natural'){
         prosseguirOne.innerHTML = `<a href=https://wa.me/5521964388870?text=${escolhaSabores[0]}>PROSSEGUIR</a>`
+        prime.style.padding = '20px'
+        prime.style.height = '40px'
+        prime.style.width = '120px'
     } 
     else if(escolha === 'Banana'){
         prosseguirOne.innerHTML = `<a href=https://wa.me/5521964388870?text=${escolhaSabores[1]}>PROSSEGUIR</a>`
+        prime.style.padding = '20px'
+        prime.style.height = '40px'
+        prime.style.width = '120px'
     }
     else if(escolha === 'Morango'){
         prosseguirOne.innerHTML = `<a href=https://wa.me/5521964388870?text=${escolhaSabores[2]}>PROSSEGUIR</a>`
+        prime.style.padding = '20px'
+        prime.style.height = '40px'
+        prime.style.width = '120px'
     }
 }console.log(saborA)
 
