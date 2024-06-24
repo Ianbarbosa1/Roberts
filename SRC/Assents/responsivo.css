@@ -1,512 +1,259 @@
-@media screen and (min-width:400px) and (max-width:600px) {
-    /*LOGO*/
-    .logo {
-        height: 100px;
-    }
+@media screen and (min-width:450px) and (max-width:650px) {
+   /*FUNDO INICIAL*/
+   .one{
+    height: 580px;
+}
+.menu img{
+    height: 580px;
+}
+.color{
+    height: 580px;
+}
+.produtos{ 
+    height: 580px;
+}
 
-    .logo img{
-        height: 100px;
-        border-radius: 100px;
-    }
+/*DADOS DA LOJA*/
+.sobre-loja{
+    gap: 50px;
+    display: block;
+    height: 470px;
+}
+.sobre {
+    gap: 25px;
+    padding-top: 25px;
+}
+/*LOCALIZAÇÃO*/
+.mapa{
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+}
+.mapa iframe{
+    height: 300px;
+    width: 450px;
+}
 
+/*PRODUTOS*/
+.amostra {
+    height: 100%;
+    gap:10px;
+    border: 10px;
+    border-style:outset;
+    border-color: rgb(229,179,123) rgb(129, 59, 5);
+}
+.descricao{ 
+    width: 400px;
+    font-size: 20px;
+}
+.nome{
+    font-size: 30px;
+}
+.SB{
+    font-size: 15px;
+}
+.SB-S{
+    font-size: 15px;
+}
 
+/*PRODUTOS A ESQUERDA*/
+.img-produto img{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 25px;
+}
+
+/*PRODUTOS A DIREITA*/
+.img-produto-2 img{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+}
+
+.botao-1 {
+    margin-left: 0px;
+}
+
+/*RODAPÉ*/
+footer{
+    gap: 25px;
+}
+.roberts-imagem{
+    height: 120px;
+    margin-left: 10px;
+}
+.divisoria{
+    height: 150px;
+}
+.cnpj{
+    font-size: 15px;
+}
+}
+@media screen and (min-width:651px) and  (max-width:1023px) {
     /*FUNDO INICIAL*/
     .one{
-        height: 320px;
+        height: 565px;
     }
     .menu img{
-        height: 320px;
+        height: 565px;
     }
     .color{
-        height: 320px;
+        height: 565px;
+    }
+    .produtos{ 
+        height: 565px;
     }
 
-
-    /*ESCOLHA DO PRODUTO*/
-    .menu-produto{
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 50px;
-        margin-top: 0px;
-    }
-    .produto{
-        width: 110px;
-        background-color: rgb(99,102,107);
-        border-radius: 30px;
-        margin-top:1px;
-    }
-    .produto a {
-        font-size: 17px;
-        padding: 5px 5px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .SB{
-        display: none;
-    }
-
-        
-    /*DADOS SOBRE A LOJA*/
+    /*DADOS DA LOJA*/
     .sobre-loja{
-        height: 500px;
+        gap: 50px;
         display: block;
-        font-size: 13px;
-    }
-    .fundo-img {
-        height:200px;
+        height: 520px;
     }
     .sobre {
-        height: 150px;
-        width: 100%;
-        margin: 0;
+        gap: 25px;
+        padding-top: 25px;
     }
-    .titulo{
-        font-size: 14px;
-        margin-bottom: 13px;
-    }
-
-    /*FACEBOOK*/
-    .redes{
-        padding: 3px;
-        margin: 5px 0px;
-        text-align: center;
-    }
-    .redes img {
-        height: 20px;     
-    }
-
-    /*INSTAGRAM*/
-    .redes-2 {
-        text-align: center;   
-    }
-    .redes-2 img{
-        height: 20px;     
-    }
-    .borda {
-        width: 2px;
-    }
-    .contato {
-        padding: 0px;
-        margin: 0;
-    }
-    
-    /*WHATSAPP*/
-    .redes-3 img, a{
-        margin-top: 3px;
-    }
-
-
-    /*MAPA*/
+    /*LOCALIZAÇÃO*/
     .mapa{
-        margin-top:40px;
-        height: 320px;
+        height: 300px;
         width: 100%;
-        
+        margin-top: 50px;
     }
     .mapa iframe{
         height: 300px;
-        width: 100%;
-        margin-right:0px;
-    }
+        width: 500px;
+}
 
-    /*SOBRE OS PRODUTOS*/
-    .sobre-produto{
-        margin-top: 20px;
-        margin-left: 50px;
-        width: 45%;
+    /*PRODUTOS*/
+    .amostra {
+        height: 100%;
+        gap:25px;
+    }
+    .descricao{ 
+        width: 250px;
+        font-size: 20px;
     }
     .nome{
-        font-size: 15px;
+        font-size: 35px;
     }
-    .barra {
-        height: 6px;
-        width: 70px;
-        margin-bottom: 10px;
+    .SB{
+        font-size: 18px;
     }
-    .descricao, ul, li{
-        font-size: 13px;
-        width: 180px;
-        margin: 0;
-    }
-
-    /*PRODUTOS DA ESQUERDA*/
-    .img-produto{
-        display: flex;
-    }
+    
+    /*PRODUTOS A ESQUERDA*/
     .img-produto img{
-        height: 250px;
-        width: 250px;
-        margin:0px;
-        margin-bottom: 30px;
+        height: 300px;
+        width: 300px;
     }
 
     /*PRODUTOS A DIREITA*/
-    .sobre-produto-2{
-        margin-top: 0px;
-        margin-right:50px ;
-    }
     .img-produto-2 img{
-        height: 250px;
-        width: 250px;
-        margin-right: 20px;
-        margin-bottom:20px;
+        height: 300px;
+        width: 300px;
     }
 
-    /*ABERTRA DO ULTIMO MODAL*/
-    .escolhas7{
-        height:324px;
-        width: 100%;
-        display: none;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        background-color: rgba(0,0,0, 0.3);
-    }
-    .tipos {
-        display: flex;
-        height: 110px;
-        margin-top: 20px;
-    }
-
-
-    /*SAIBA MAIS A ESQUERDA*/
-    .botao {
-        width: 90px;
-        margin: 0;
-        margin-top: 10px;
-        border-radius: 10px;
-        padding: 5px;
-        font-size:11px;
-        cursor: pointer;
-    }
-
-    /*SAIBA MAIS A DIREITA*/
     .botao-1 {
-        width: 90px;
-        margin: 0;
-        margin-top: 10px;
-        border-radius: 10px;
-        padding: 5px;
-        font-size:11px;
-        cursor: pointer;
+        margin-left: 90px;
     }
-}
-@media screen and (min-width:601px) and  (max-width:700px) {
-    /*LOGO*/
-    .logo {
+
+    /*RODAPÉ*/
+    footer{
+        gap: 25px;
+    }
+    .roberts-imagem{
         height: 150px;
     }
-    .logo img{
+    .divisoria{
         height: 150px;
-        border-radius: 100px;
     }
-
-    /*FUNDO INICIAL*/
-    .one{
-        height: 496px;
-    }
-    .menu img{
-        height: 496px;
-    }
-    .color{
-        height: 496px;
-    }
-
-
-    /*ESCOLHA DOS PRODUTOS*/
-    .menu-produto{
-        display: flex;
-        padding-top: 150px;
-    }
-    .produto{
-        width: 150px;
-        background-color: rgb(99,102,107);
-        border-radius: 50px;
-        margin: 10px;
-    }
-    .produto a {
-        font-size: 20px;
-        padding: 10px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-
-    /*DADOS SOBRE A LOJA*/
-    .sobre-loja{
-        height: 600px;
-        display: block;
+    .cnpj{
         font-size: 18px;
     }
-    .fundo-img {
-        height:200px;
+}
+@media screen and (min-width:1024px) and (max-width:1300px) {
+    /*FUNDO INICIAL*/
+    .one{
+        height: 519px;
+    }
+    .menu img{
+        height: 519px;
+    }
+    .color{
+        height: 519px;
+    }
+    .produtos{ 
+        height: 519px;
+    }
+
+    /*DADOS DA LOJA*/
+    .sobre-loja{
+        gap: 50px;
     }
     .sobre {
-        height: 150px;
-        width: 100%;
-        margin: 0;
-    }
-    .titulo{
-        font-size: 14px;
-        margin-bottom: 13px;
-    }
-    .redes{
-        padding: 3px;
-        margin: 7px 0px;
-    }
-    .redes img {
-        height: 25px;     
-    }
-    .borda {
-        width: 3px;
-    }
-    .contato {
-        padding: 0;
-        margin: 0;
-    }
-    .mapa{
-        margin-top:45px;
-        height: 410px;
-        width: 100%;
-    }
-    .mapa iframe{
-        height: 390px;
-        width: 100%;
-        margin-right:0px;
+        gap: 25px;
     }
 
-
-    /*SOBRE OS PRODUTOS*/
-    .sobre-produto{
-        margin-top: 50px;
-        margin-left: 17px;
+    /*PRODUTOS*/
+    .amostra {
+        height: 100vh;
+        gap: 50px;
     }
-    .nome{
-        font-size: 20px;
-    }
-    .barra {
-        height: 10px;
-        width: 90px;
-        margin-bottom: 10px;
-    }
-    .descricao, ul, li{
-        font-size: 15px;
-        width: 245px;
-        margin: 0;
+    .descricao{ 
+        width: 300px;
     }
 
     /*PRODUTOS A ESQUERDA*/
-    .img-produto{
-        display: flex;
-    }
     .img-produto img{
-        height: 350px;
-        width: 340px;
-        margin:0px;
-        margin-bottom:20px;
+        height: 500px;
+        width: 500px;
     }
 
     /*PRODUTOS A DIREITA*/
-    .sobre-produto-2{
-        margin-top: 50px;
-        margin-left: 30px;
-    }
     .img-produto-2 img{
-        height: 350px;
-        width: 340px;
-        margin:0;
-        margin-bottom:20px;
-    }  
-
-    /*SAIBA MAIS A ESQUERDA*/
-    .botao {
-        width: 110px;
-        margin: 0;
-        margin-top: 25px;
-        padding: 5px;
-        font-size:15px;
+        height: 500px;
+        width: 500px;
     }
-    
-    /*SAIBA MAIS A DIREITA*/
+
     .botao-1 {
-        width: 110px;
-        margin: 0;
-        margin-top: 25px;
-        padding: 5px;
-        font-size:15px;
+        margin-left: 150px;
     }
 }
-@media screen and (min-width:701px) and (max-width:900px) {
-    /*LOGO*/
-    .logo {
-        height: 150px;
-    }
-    .logo img{
-        height: 150px;
-        border-radius: 100px;
-    }
-
-
+@media screen and (min-width:1301px) and (max-width:1500px) {
     /*FUNDO INICIAL*/
     .one{
-        height: 496px;
+        height: 519px;
     }
     .menu img{
-        height: 496px;
+        height: 519px;
     }
     .color{
-        height: 496px;
+        height: 519px;
+    }
+    .produtos{ 
+        height: 519px;
     }
 
-
-    /*ESCOLHA DOS PRODUTOS*/
-    .menu-produto{
-        display: flex;
-        padding-top: 150px;
-    }
-    .produto{
-        width: 150px;
-        background-color: rgb(99,102,107);
-        border-radius: 50px;
-        margin: 10px;
-    }
-    .produto a {
-        font-size: 20px;
-        padding: 10px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-        
-    /*DADOS DA LOJA*/
-    .sobre-loja{
-        height: 600px;
-        display: block;
-        font-size: 18px;
-    }
-    .fundo-img {
-        height:200px;
-    }
-    .sobre {
-        height: 150px;
+    .amostra {
         width: 100%;
-        margin: 0;
-    }
-    .titulo{
-        font-size: 14px;
-        margin-bottom: 13px;
-    }
-    .redes{
-        padding: 3px;
-        margin: 7px 0px;
-    }
-    .redes img {
-        height: 25px;     
-    }
-    .borda {
-        width: 3px;
-    }
-    .contato {
-        padding: 0;
-        margin: 0;
-    }
-    .mapa{
-        margin-top:45px;
-        height: 410px;
-        width: 100%;
-    }
-    .mapa iframe{
-        height: 390px;
-        width: 100%;
-        margin-right:0px;
-    }
-
-    /*SOBRE OS PRODUTOS*/
-    .sobre-produto{
-        margin: 30px 0px 0px 10px;
-    }
-    .nome{
-        font-size: 20px;
-    }
-    .barra {
-        height: 10px;
-        width: 90px;
-        margin-bottom: 10px;
-    }
-    .descricao, ul, li{
-        font-size: 15px;
-        width: 260px;
-        margin-left:10px;
-    }
-    .img-produto{
-        display: flex;
-    }
-    .img-produto img{
-        height: 400px;
-        width: 400px;
-        margin:0px;
-        margin-bottom:20px;
-    }
-    .sobre-produto-2{
-        margin: 30px 10px 0px 0px;
-    }
-    .img-produto-2 img{
-        height: 400px;
-        width: 400px;
-        margin:0;
-        margin-bottom:20px;
-    }
-
-    /*BOTÃO*/
-    .botao{
-        margin-top: 80px;
-        font-size: 15px;
-        padding: 10px 29px;
-    }
-    .botao-1{
-        margin-top: 80px;
-        font-size: 15px;
-        padding: 10px 29px;
+        height: 100vh;
+        gap: 50px;
     }
 }
-@media screen and (min-width:901px) and (max-width:1400px) {
-    /*SOBRE OS PRODUTOS*/
-    .sobre-produto{
-        margin: 40px 0px 0px 80px;
+@media screen and (min-width:1501px) and (max-width:1600px) {
+    .one{
+        height: 519px;
     }
-    .nome{
-        font-size: 20px;
+    .menu img{
+        height: 519px;
     }
-    .barra {
-        height: 10px;
-        width: 90px;
-        margin-bottom: 10px;
+    .color{
+        height: 519px;
     }
-    .descricao, ul, li{
-        font-size: 15px;
-        width: 260px;
-        margin-left:10px;
-    }
-    .botao{
-        margin-top: 80px;
-    }
-    .botao-1{
-        margin-top: 80px;
-    }
-
-    .img-produto{
-        display: flex;
-    }
-    .img-produto img{
-        height: 500px;
-        width: 500px;
-        margin:0px;
-        margin-bottom:20px;
-    }
-    .sobre-produto-2{
-        margin: 40px 80px 0px 0px;
-    }
-    .img-produto-2 img{
-        height: 500px;
-        width: 500px;
-        margin:0;
-        margin-bottom:20px;
+    .produtos{ 
+        height: 519px;
     }
 }
