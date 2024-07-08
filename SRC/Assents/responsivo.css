@@ -1,3 +1,120 @@
+@media screen and (min-width:350px) and (max-width:449px) {
+    /*FUNDO INICIAL*/
+   .one{
+    height: 580px;
+    }
+    .menu img{
+        height: 580px;
+    }
+    .color{
+        height: 580px;
+    }
+    .produtos{ 
+        height: 580px;
+    }
+
+    /*DADOS DA LOJA*/
+    .sobre-loja{
+        gap: 50px;
+        display: block;
+        height: 470px;
+    }
+    .sobre {
+        gap: 10px;
+        padding-top: 25px;
+    }
+    .titulo{
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .redes-socias a {
+        font-size: 14px;
+    }
+    .contato a{
+        font-size: 12px;
+    }
+    /*LOCALIZAÇÃO*/
+    .mapa{
+        height: 300px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .mapa iframe{
+        height: 300px;
+        width: 350px;
+    }
+
+    /*PRODUTOS*/
+    .amostra {
+        height: 100%;
+        gap:5px;
+        border: 10px;
+        border-style:outset;
+        border-color: rgb(229,179,123) rgb(129, 59, 5);
+    }
+    .sobre-produto{
+        margin-left: 19px;
+    }
+    .descricao{ 
+        width: 330px;
+        font-size: 18px;
+    }
+    .nome{
+        font-size: 25px;
+    }
+    .SB{
+        font-size: 15px;
+    }
+    .SB-S{
+        font-size: 15px;
+    }
+
+    /*PRODUTOS A ESQUERDA*/
+    .img-produto img{
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        right: 25px;
+    }
+
+    /*PRODUTOS A DIREITA*/
+    .img-produto-2 img{
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        right: 20px;
+        margin-top: 20px;
+    }
+
+    /*SAIBA MAIS A ESQUERDA*/
+    .botao {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    /*SAIBA MAIS A DIREITA*/
+    .botao-1 {
+        padding: 10px 30px;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    /*RODAPÉ*/
+    footer{
+        gap: 15px;
+    }
+    .roberts-imagem{
+        height: 90px;
+        margin-left: 10px;
+    }
+    .divisoria{
+        height: 150px;
+    }
+    .cnpj{
+        font-size: 13px;
+    }
+}
 @media screen and (min-width:450px) and (max-width:650px) {
    /*FUNDO INICIAL*/
    .one{
@@ -101,6 +218,7 @@
         font-size: 15px;
     }
 }
+
 @media screen and (min-width:651px) and  (max-width:1023px) {
     /*FUNDO INICIAL*/
     .one{
