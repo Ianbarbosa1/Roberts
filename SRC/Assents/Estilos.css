@@ -5,14 +5,17 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*DIVs FLEX*/
+.logo, .produtos, .produto a, .sobre-loja, .sobre, .redes, .redes-2, .redes-3, .mapa, .amostra, .escolhas0, .escolhas1, .escolhas2, .escolhas3, .escolhas4, .escolhas5, .escolhas6, .escolhas7, .fechar, .tipos, .botao, .botao-1, footer, .end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*LOGO*/
 .logo {
     height: 150px;
     background-color: rgb(229,179,123);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .logo img{
     height: 140px;
@@ -41,10 +44,7 @@
 
 
 /*ESCOLHA DOS PRODUTOS*/
-.produtos{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.produtos{
     color: rgb(238, 229, 229);
     height: 539px;
     flex-wrap: wrap;
@@ -56,9 +56,6 @@
     margin: 0px 50px;
 }
 .produto a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -79,9 +76,6 @@
     background-color: rgba(0,0,0, 0.3);
     height: 220px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     content: '';
     background-image: url(../Imagens/Green\ garden.png);
     background-position: center;
@@ -89,9 +83,6 @@
     gap: 250px;
 }
 .sobre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 150px;
     color: rgb(252, 252, 252);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -111,9 +102,6 @@
 
 /*FACEBOOK*/
 .redes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 10px;
     padding: 5px;
     text-align: center;
@@ -131,9 +119,6 @@
 
 /*INSTAGRAM*/
 .redes-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 5px;
     text-align: center;
     gap: 5px;
@@ -150,9 +135,6 @@
 
 /*WHATSAPP*/
 .redes-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 1px;
     text-align: center;
 }
@@ -180,9 +162,6 @@
 
 /*LOCALIZAÇÃO*/
 .mapa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 200px;
     width: 500px;
 }
@@ -195,9 +174,6 @@
 
 /*PRODUTOS*/
 .amostra {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(153, 153, 153, 0.151);
     width: 100%;
     height: 100vh;
@@ -206,7 +182,7 @@
     border-style:outset;
     border-color: rgb(229,179,123) rgb(129, 59, 5);
 }    
-.sobre-produto{
+.sobre-produto, .sobre-produto-2{
     margin-top: 100px;
     margin-bottom: 100px;
     animation: entrada 2ms ease-in-out;
@@ -240,30 +216,11 @@
     margin-left: 20px;
     font-size: 20px;
 }
-
 /*PRODUTOS A ESQUERDA*/
-.img-produto img{
+.img-produto img, .img-produto-2 img{
     height: 700px;
     width: 700px;
     border-radius: 50%;
-    filter: drop-shadow(20px 20px 10px rgb(44,21,3));
-    animation: entradaimg 2ms ease-in-out;
-    animation-timeline:view();
-    animation-range: cover 0% 40%;
-}
-/*PRODUTOS A DIREITA*/
-.sobre-produto-2{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    animation: entrada 2ms ease-in-out;
-    animation-timeline:view();
-    animation-range: cover 0% 40%;
-}
-.img-produto-2 img{
-    height: 700px;
-    width: 700px;
-    border-radius: 50%;
-    filter: drop-shadow(20px 20px 10px rgb(44,21,3));
     filter: drop-shadow(20px 20px 10px rgb(44,21,3));
     animation: entradaimg 2ms ease-in-out;
     animation-timeline:view();
@@ -296,107 +253,14 @@
 
 
 /*ABERTURA E FECHADURA DE MODAIS*/
-.escolhas0{
+.escolhas0, .escolhas1, .escolhas2, .escolhas3, .escolhas4, .escolhas5, .escolhas6, .escolhas7{
     height:100%;
     width: 100%;
     display: none;
-    justify-content: center;
-    align-items: center;
     position: fixed;
     background-color: rgba(0,0,0, 0.3);
 }
-.escolhas0.abrir{
-    display: flex;
-    z-index: 99;
-}
-.escolhas1{
-    height:100%;
-    width: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position:fixed;
-    background-color: rgba(0,0,0, 0.3);
-}
-.escolhas1.abrir{
-    display: flex;
-    z-index: 99;
-}
-.escolhas2{
-    height:100%;
-    width: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-color: rgba(0,0,0, 0.3);
-}
-.escolhas2.abrir{
-    display: flex;
-    z-index: 99;
-}
-.escolhas3{
-    height:100%;
-    width: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-color: rgba(0,0,0, 0.3);
-}
-.escolhas3.abrir{
-    display: flex;
-    z-index: 99;
-}
-.escolhas4{
-    height:100%;
-    width: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-color: rgba(0,0,0, 0.3);
-    z-index: 1;
-}
-.escolhas4.abrir{
-    display: flex;
-}
-.escolhas5{
-    height:100%;
-    width: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-color: rgba(0,0,0, 0.3);
-}
-.escolhas5.abrir{
-    display: flex;
-    z-index: 99;
-}
-.escolhas6{
-    height:100%;
-    width: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-color: rgba(0,0,0, 0.3);
-}
-.escolhas6.abrir{
-    display: flex;
-    z-index: 99;
-}
-.escolhas7{
-    height:100%;
-    width: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-color: rgba(0,0,0, 0.3);
-}
-.escolhas7.abrir{
+.escolhas0.abrir, .escolhas1.abrir, .escolhas2.abrir, .escolhas3.abrir, .escolhas4.abrir, .escolhas5.abrir, .escolhas6.abrir, .escolhas7.abrir{
     display: flex;
     z-index: 99;
 }
@@ -407,9 +271,6 @@
     color: white;
     font-size: 15px;
     position: absolute;
-    display: flex;
-    align-items: center;
-    width: 50%;
 }
 .X{
     height: 23px;
@@ -437,10 +298,8 @@
     border-radius: 30px;
 }
 .tipos{
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    margin-top: 20px;
+    height: 90px;
+    margin-bottom: 50px;
 }
 .selecao-sabor, option{
     height: 30px;
@@ -460,8 +319,6 @@
     width: 120px;
     background-image: linear-gradient(rgb(160, 238, 44),rgb(120,198,0));
     color:rgb(255, 255, 255);
-    justify-content: center;
-    align-items: center;
     padding: 10px;
 }
 .escolha a:hover{
@@ -475,9 +332,6 @@
     background-image:linear-gradient(rgb(229,179,123), rgb(206, 153, 93), rgb(235, 139, 29));
     margin: 0;
     margin-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 10px;
     padding: 10px 32px;
     color: white;
@@ -498,9 +352,6 @@
     margin: 0;
     margin-top: 100px;
     margin-left: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 10px;
     padding: 10px 32px;
     color: white;
@@ -517,9 +368,6 @@
 
 /*RODAPÉ*/
 footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 400px;
     width: 100%;
     background-color:rgb(229,179,123);
@@ -527,9 +375,6 @@ footer{
 }
 .end{
     height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family:'Kalam', cursive;
     font-size: 20px;
     position: absolute;
